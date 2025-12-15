@@ -1,0 +1,41 @@
+
+---
+
+## 📄 FINAL `.gitignore` CONTENT
+
+```gitignore
+# =====================
+# General
+# =====================
+.env
+.env.*
+*.log
+
+# =====================
+# Python / FastAPI
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# =====================
+# Node / React
+# =====================
+node_modules/
+dist/
+.vite/
+
+# =====================
+# OS
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# IDE
+# =====================
+.vscode/
+.idea/
